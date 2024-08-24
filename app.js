@@ -175,7 +175,7 @@ app.use((err, req, res , next) => {
 });
 
 
-app.get("/", (req, res) => {
+app.get("/hp-airbnb.onrender.com", (req, res) => {
     res.redirect("/listings");
 })
 
