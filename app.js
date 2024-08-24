@@ -175,9 +175,9 @@ app.use((err, req, res , next) => {
 });
 
 
-app.get("hp-airbnb.onrender.com", (req, res) => {
-    res.redirect("/listings");
-})
+app.get('/', (req, res) => {
+    res.redirect('/listings');
+  });
 
 
 app.listen(8080, () => {
