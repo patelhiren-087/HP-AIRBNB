@@ -1,235 +1,325 @@
-body{
-    font-family: "Plus Jakarta Sans", sans-serif !important;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.container{
-    flex: 1;
+.container {
+  flex: 1;
 }
-
-
 
 /* Navbar */
 
-.navbar{
-    height: 5rem;
-    background-color: white;
+.navbar {
+  height: 5rem;
+  background-color: white;
 }
 
-.fa-compass{
-    color: #fe424d;
-    font-size: 2rem;
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
 }
 
-.nav-link{
-    color: #222222 !important;
-    margin: 0rem .3rem;
+.nav-link {
+  color: #222222 !important;
+  margin: 0rem 0.3rem;
 }
 
-
-.navbar-img{
-    width: 3.5vw;
-    height: 3vw;
-    margin: 0rem 2rem;
+.navbar-img {
+  width: 3.5vw;
+  height: 3vw;
+  margin: 0rem 2rem;
 }
 
-
-.btn-search{
-    background-color: #fe424d !important;
-    color: #fff !important;
-    border-radius: 25px !important;
-    padding: 0 1rem !important;
+.btn-search {
+  background-color: #fe424d !important;
+  color: #fff !important;
+  border-radius: 25px !important;
+  padding: 0 1rem !important;
 }
-
 
 .btn-search i {
-    display: inline;
-    margin-right: 0.5rem;
+  display: inline;
+  margin-right: 0.5rem;
 }
 
-.search-input{
-    border-radius: 25px !important;
-    padding: 0.5rem 3rem !important;
-    font-size: 1rem !important;
+.search-input {
+  border-radius: 25px !important;
+  padding: 0.5rem 3rem !important;
+  font-size: 1rem !important;
 }
 
-
-#filters{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.filter{
-    text-align: center;
-    margin-right: 2rem;
-    margin-top: 1rem;
-    opacity: 0.7;
+.filter {
+  text-align: center;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  opacity: 0.7;
 }
 
-.filter:hover{
-    opacity: 1;
-    cursor: pointer;
+.filter:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
-.filter p{
-    font-size: 0.8rem;
+.filter p {
+  font-size: 0.8rem;
 }
 
-
-.tax-info{
-    display: none;
+.tax-info {
+  display: none;
 }
 
-.tax-toggle{
-    border: 1px solid black;
-    border-radius: 1rem;
-    height: 3.25rem;
-    padding: 1rem;
-    margin-left: 2rem;
-    display: flex;
-    align-items: center;
+.tax-toggle {
+  border: 1px solid black;
+  border-radius: 1rem;
+  height: 3.25rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
 }
-
-
-
-
 
 /* footer */
 
-.f-info-links a{
-    text-decoration: none;
-    color: #222222;
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
 }
 
-.f-info-links a:hover{
-    text-decoration: underline;
+.f-info-links a:hover {
+  text-decoration: underline;
 }
 
-.f-info-links, .f-info-socials, .f-info-brand{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.f-info-socials i{
-    font-size: 1.2rem;
-    margin-right: 1rem;
+.f-info-socials i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
 }
 
-.f-info{
-    text-align: center ;
-    display: flex;
-    height: 8rem;
-    background-color: #ebebeb;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: space-evenly;
+.f-info {
+  text-align: center;
+  display: flex;
+  height: 8rem;
+  background-color: #ebebeb;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
 }
-
-
-
-
-
-
-
-
 
 /* Cards */
 
-
-.list-head{
-    padding: 1rem 0rem;
+.list-head {
+  padding: 1rem 0rem;
 }
 
-.listing-card{
-    border: none !important;
-    margin-bottom: 2rem;
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
 }
 
-.card-img-top{
-    border-radius: 1rem !important;
-    width: 100% !important;
-    object-fit: cover !important;
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
 }
 
-.card-body{
-    padding: 0 !important;
+.card-body {
+  padding: 0 !important;
 }
 
-.card-text p{
-    font-weight: 400;
+.card-text p {
+  font-weight: 400;
 }
 
-.listing-link{
-    text-decoration: none;
+.listing-link {
+  text-decoration: none;
 }
-
-
-
 
 /* Card Effect */
 
-.card-img-overlay{
-    opacity: 0;
+.card-img-overlay {
+  opacity: 0;
 }
 
-.card-img-overlay:hover{
-    opacity: 0.2;
-    background-color: white;
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
 }
 
-.add-btn, .edit-btn{
-    background-color: #fe424d !important;
-    border: none !important;
+.add-btn,
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
 }
-
-
-
-
-
-
 
 /* Show Page */
 
-.show-img{
-    height: 40vh;
+.show-img {
+  height: 40vh;
 }
 
-.btns{
-    display: flex;
+.btns {
+  display: flex;
 }
 
-.show-card{
-    padding-left: 0;
-    padding-right: 0;
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Map */
 
-#map{
-    height: 400px;
-    width: 80vh;
+#map {
+  height: 400px;
+  width: 80vh;
 }
+
+/* Media Queries */
+
+@media (max-width: 576px) {
+  /* NavBar */
+
+  .navbar-img {
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    margin: 10px;
+  }
+
+  .navbar-toggler {
+    margin: 10px;
+  }
+
+  /* Adjust the navbar collapse container */
+  .navbar-collapse {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    width: 100% !important;
+    padding: 2rem 2rem 1rem 2rem;
+    border-radius: 24px 25px 25px 25px;
+    font-weight: bold;
+  }
+
+  /* Style for the nav links */
+  .navbar-nav .nav-link {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 25px;
+  }
+
+  /* Style for the search form */
+  .d-flex {
+    display: inline-block !important;
+    flex-direction: column; /* Stack search input and button vertically */
+    align-items: center; /* Center align items */
+  }
+
+  .search-input {
+    width: 100%; /* Full-width input field */
+    margin-bottom: 10px; /* Space between input and button */
+    text-align: center; /* Center the text inside the input field */
+  }
+
+  /* Optional: Additional styling for the input */
+  .search-input::placeholder {
+    text-align: center; /* Ensure the placeholder text is also centered */
+    color: #6c757d; /* Optional: Change the color of the placeholder text */
+  }
+
+  .btn-search {
+    width: 100%; /* Full-width button */
+  }
+
+  /* Style for the additional navbar links */
+  .navbar-nav.ms-auto {
+    margin-top: 10px; /* Space above the additional links */
+  }
+
+  .navbar-nav .nav-link {
+    text-align: center; /* Center align text */
+    display: block; /* Ensure links are block elements */
+    margin: 5px 0; /* Vertical spacing between links */
+  }
+
+  /* Index */
+
+  #filters {
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+  }
+
+  .tax-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Index */
+
+
+  .tax-toggle {
+    display: none;
+  }
+}
+
+.navbar {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 10px 20px; /* Adjust padding for the navbar */
+}
+
+.navbar-img {
+    max-width: 120px; /* Adjust image size */
+    height: auto;
+}
+
+/* Navbar toggler button styles */
+.navbar-toggler {
+    border: none;
+}
+
+/* Navbar link styles */
+.nav-link {
+    margin-right: 15px; /* Space between links */
+    color: #333; /* Link color */
+    font-weight: bold; /* Make links bold */
+}
+
+/* Search form styles */
+.form-control {
+    width: 200px; /* Set width for search input */
+}
+
+/* Hide search input and button on small screens */
+@media (max-width: 768px) {
+    .form-control, .btn-search {
+        display: none; /* Hide on small screens */
+    }
+
+    .navbar-nav, .ms-auto {
+        text-align: center; /* Center align links */
+        margin: 0; /* Remove margins for clean layout */
+    }
+    
+    .navbar-nav a, .ms-auto a {
+        display: block; /* Stack links vertically */
+        margin: 10px 0; /* Add margin between links */
+    }
+}
+
